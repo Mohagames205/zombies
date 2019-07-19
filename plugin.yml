@@ -1,0 +1,17 @@
+name: Zombies
+version: 1.0.0
+api: 3.0.0
+author: Mohagames
+main: mohagames\zombies\Main
+
+commands:
+  zombie:
+    permission: zombies.spawn
+  destroy:
+    permission: zombies.destroy
+
+permissions:
+  zombies.spawn:
+    default: op
+  zombies.destroy:
+    default: op
